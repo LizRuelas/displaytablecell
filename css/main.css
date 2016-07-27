@@ -1,0 +1,46 @@
+/* completa tu codigo aqui */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+li {
+	width: 100px;
+	height: 100px;
+}
+ul {
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.table {
+	display: table;
+}
+.tablerow {
+	display: table-row;
+}
+.tablecell {
+	display:table-cell;
+}
+.boxblue {
+	background: rgb(125,194,254);
+}
+.boxcyan {
+	background: rgb(123,239,221);
+}
+.boxorange {
+	background: rgb(252,183,123);
+}
+.boxred {
+	background: rgb(252,149,159);
+}
+.box {
+	background: #000;
+ 	display: none;
+	padding: 40px 3px;
+}
+.tablerow:hover > .box {
+ 	display: table-cell;
+}
